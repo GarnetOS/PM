@@ -2,6 +2,7 @@
 #define PACKAGE_H
 
 #include <QStringList>
+#include <QProcess>
 class Package
 {
 public:
