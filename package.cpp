@@ -4,23 +4,23 @@ Package::Package()
 {
 
 }
-static void Install(QStringList input)
+void Package::Install(QStringList input)
 {
 
 }
-static void Uninstall(QStringList input)
+ void Package::Uninstall(QStringList input)
 {
 
 }
-static void Download(QString input)
+ void Package::Download(QStringList input)
 {
 
 }
-static void Find(QString input)
+void Package::Find(QString input)
 {
 
 }
-static void Update()
+void Package::Update()
 {
 
 }
